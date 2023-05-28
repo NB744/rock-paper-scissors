@@ -1,0 +1,80 @@
+#game-wrapper{
+    border: solid black 1px;
+    border-radius: 5px;
+    max-width: 65%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#game-header-wrapper {
+    border-bottom:groove grey 2px;
+    padding-bottom: 20px;
+}
+
+#game-info-wrapper {
+    color: crimson;
+    font-size:x-large;
+}
+
+#game-scoreboard-wrapper{
+    border-top: dashed grey 2px;
+    padding: 20px 0px;
+
+}
+
+#game-data-markup {
+    font-size: xx-large;
+    color: crimson;
+}
+
+#game-scoreboard-wrapper .game-img,
+#game-round-data-wrapper .game-img {
+    height: auto;
+    width: 50px;
+}
+
+#game-header, #scoreboard-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-basis:auto;
+}
+
+.game-img{
+    height: auto;
+    width: 100px;
+}
+
+.rps-item-img:hover{
+    -webkit-transition: transform 0.5s ease-in-out;
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+#game-img-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    padding: 10px 0px 50px 0px;
+}
+
+#game-scoreboard-data-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.game-scoreborad-markup {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#game-round-data-wrapper .game-img {
+    padding-right: 20px;
+}
